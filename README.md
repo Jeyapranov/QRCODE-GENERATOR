@@ -28,10 +28,3 @@ A simple desktop application to generate QR codes from URLs and save them as ima
    ```
 3. Enter the **URL** and **file name** in the app, then click **Generate**.
 
-
-## Author
-👤 **Jeyapranov**  
-Check out my other projects on [GitHub](https://github.com/Jeyapranov?tab=repositories).
-
-## License
-This project is licensed under the **MIT License**.
