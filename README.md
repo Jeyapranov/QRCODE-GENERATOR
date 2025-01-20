@@ -26,5 +26,5 @@ A simple desktop application to generate QR codes from URLs and save them as ima
    ```bash
    python qrqt.py
    ```
-3. Enter the **URL** and **file name** in the app, then click **Generate**.
+3. Enter the **URL** and **file name** in the app with extension, then click **Generate**.
 
