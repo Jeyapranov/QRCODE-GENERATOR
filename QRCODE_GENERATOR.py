@@ -1,14 +1,14 @@
 import sys
 import webbrowser
 from PyQt5.QtWidgets import QApplication, QDialog, QMessageBox
-from QRCODE_UI import Ui_QRGENERATOR  # Import the generated UI class
+from QRCODE_UI import Ui_QRCodeGenerator  # Import the generated UI class
 import qrcode
 
 
 class MainApp(QDialog):
     def __init__(self):
         super().__init__()
-        self.ui = Ui_QRGENERATOR()
+        self.ui = Ui_QRCodeGenerator()
         self.ui.setupUi(self)
 
         # Connect buttons to their respective actions
@@ -41,9 +41,8 @@ class MainApp(QDialog):
 
     def open_github(self):
         """Opens the GitHub profile in the default web browser."""
-        github_url = "https://github.com/Jeyapranov?tab=repositories"
+        github_url = ("https://github.com/Jeyapranov/QRCODE-GENERATOR")
         webbrowser.open(github_url)
-
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>QRGENERATOR</class>
  <widget class="QDialog" name="QRGENERATOR">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,7 +14,14 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>QRCODE GENERATOR</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>github.ico</normaloff>github.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(222, 221, 218);</string>
   </property>
   <widget class="QTextEdit" name="textEdit">
    <property name="geometry">
@@ -22,6 +32,10 @@
      <height>41</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 15pt &quot;DejaVu Sans&quot;;</string>
+   </property>
   </widget>
   <widget class="QTextEdit" name="textEdit_2">
    <property name="geometry">
@@ -31,6 +45,10 @@
      <width>301</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 15pt &quot;DejaVu Sans&quot;;</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton">
