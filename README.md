@@ -19,12 +19,12 @@ A simple desktop application to generate QR codes from URLs and save them as ima
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Jeyapranov/qrcode-generator.git
-   cd qrcode-generator
+   git clone https://github.com/Jeyapranov/QRCODE-GENERATOR.git
+   cd QRCODE-GENERATOR
    ```
 2. Run the application:
    ```bash
-   python qrqt.py
+   python3 QRCODE_GENERATOR.py
    ```
 3. Enter the **URL** and **file name** in the app with extension, then click **Generate**.
 
